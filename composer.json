@@ -11,12 +11,13 @@
         }
     ],
 	"minimum-stability": "dev",
+	"stability": "stable",
     "require": {
         "yiisoft/yii2": "*"
     },
 	"extra": {
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"1.0.x": "1.0.x-dev"
 		}
 	}
 }

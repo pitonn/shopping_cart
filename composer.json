@@ -1,0 +1,21 @@
+{
+    "name": "pitonn/yii2-shopping-cart",
+    "description": "shopping cart",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "pitonn",
+            "email": "pitonn.pskov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pitonn\\": ""
+        }
+    }
+}

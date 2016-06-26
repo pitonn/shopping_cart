@@ -4,14 +4,13 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "LGPL-3.0+",
-	"version": "1",
     "authors": [
         {
             "name": "pitonn",
             "email": "pitonn.pskov@gmail.com"
         }
     ],
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
     }

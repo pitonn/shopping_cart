@@ -1,28 +1,23 @@
 {
-    "name": "pitonn/yii2-shopping-cart",
-    "description": "shopping cart",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "LGPL-3.0+",
-    "authors": [
-        {
-            "name": "pitonn",
-            "email": "pitonn.pskov@gmail.com"
-        }
-    ],
-	"minimum-stability": "dev",
-	"stability": "stable",
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-	"extra": {
-		"branch-alias": {
-			"1.0": "1.0-dev"
+	"name": "pitonn/yii2-shopping-cart",
+	"description": "shopping cart",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension"],
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "pitonn",
+			"email": "pitonn.pskov@gmail.com"
 		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
 	},
 	"autoload": {
 		"psr-4": {
-			"pitonn\\": ""
+			"pitonn\\shoppingcart\\": ""
 		}
 	}
 }

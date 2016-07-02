@@ -1,14 +1,16 @@
 <?php
 
-namespace pitonn;
+namespace pitonn\shoppingcart;
 
-/**
- * This is just an example.
- */
-class AutoloadExample extends \yii\base\Widget
+use Yii;
+use yii\base\Component;
+use yii\base\Widget;
+
+class AutoloadExample extends Component
 {
-    public function run()
-    {
-        return "Hello!";
-    }
+	public function init()
+	{
+		echo 'test_autoload';
+		var_dump($this);
+	}
 }
